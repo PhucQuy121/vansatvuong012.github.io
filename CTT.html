@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phòng đào tạo - TRƯỜNG ĐẠI HỌC NAM CẦN THƠ</title>
+    <link rel="stylesheet" href="./CTT.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div class="include">
+        <div class="header">
+            <div>
+                <img class="header-image" src="./banner_congthongtinhssv.jpg" alt="">
+            </div>
+            <div class="header-information">
+                <ul class="header-information_item">
+                    <li class="header-information_item--list">Đăng ký xét tuyển</li>
+                    <li class="header-information_item--space"></li>
+                    <li class="header-information_item--list">Tra cứu văn bằng</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="search">
+                <div class="search-input">
+                    <label for="search" class="search-input__space"><b>TÌM KIẾM</b></label>
+                    <input type="text" class="search-input__space search-input-item" placeholder="Nhập nội dung cần tìm">
+                    <select name="select" id="select" class="search-input__space">
+                        <option value="Tất cả">Tất cả</option>
+                    </select>
+                    <button class="search-input__space search-button">Tìm kiếm</button>
+                </div>
+                <div class="search-output">
+                    <div class="search-output__text">
+                        <span class="search-output__text-result">KẾT QUẢ CHO "
+                            <span class="search-output__text-input"></span>
+                            "
+                        </span>
+                    </div>
+                    <ul class="search-output__lists">
+                        <span>Không tìm thấy thông tin</span>
+                    </ul>
+                </div>
+            </div>
+            <div class="tools">
+                <div class="login">
+                    <span class="login-title">ĐĂNG NHẬP</span>
+                    <div class="login-information">
+                        <label for="name">Mã sinh viên:</label>
+                        <input type="text">
+                    </div>
+                    <div class="login-information">
+                        <label for="password">Mật khẩu:</label>
+                        <input type="password">
+                    </div>
+                    <div class="login-information">
+                        <label for="projectcode">Mã bảo vệ:</label>
+                        <div class="input-projectcode">
+                            <input type="text">
+                            <span class="projectcode"></span>
+                            <div class="refresh">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="login-submit">Đăng Nhập</button>
+                </div>
+                <div class="parent">
+                    <span class="parent-text">DÀNH CHO PHỤ HUYNH</span>
+                </div>
+                <div class="link">
+                    <span class="link-text">LIÊN KẾT</span>
+                    <a href="https://ascvn.com.vn/" class="link-item">
+                        <i class="fas fa-angle-right"></i>
+                        <span>Công Ty TNHH Tiến Bộ Sài Gòn</span>
+                    </a>
+                </div>
+                <div class="statistical">
+                    <span class="statistical-text">THỐNG KÊ</span>
+                    <ul class="statistical-list">
+                        <li class="statistical-list__items">
+                            <i class="fas fa-male statistical-list__items--present"></i>
+                            <span class="statistical-list__item">Đang online: 140</span>
+                        </li>
+                        <li  class="statistical-list__items">
+                            <i class="fas fa-male statistical-list__items--today"></i>
+                            <span class="statistical-list__item">Hôm nay: 5971</span>
+                        </li>
+                        <li class="statistical-list__items">
+                            <i class="fas fa-male statistical-list__items--yesterday"></i>
+                            <span class="statistical-list__item">Hôm qua: 9948</span>
+                        </li>
+                        <li class="statistical-list__items">
+                            <i class="fas fa-male statistical-list__items--total"></i>
+                            <span class="statistical-list__item">Tổng cộng: 11519814</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span>© 2015 ĐẠI HỌC NAM CẦN THƠ</span>
+            <span>Địa chỉ: 168, Nguyễn Văn Cừ (nối dài), Quận Ninh Kiều, Thành phố Cần Thơ</span>
+            <span>Điện thoại: 07103798222-07103798668 Fax:07103798668</span>
+            <span>Design by <a href="http://www.epmt.vn/">EPMT</a></span>
+        </div>
+    </div>
+    <script src="./CTT.js"></script>
+    <script>
+        projectcode();
+    </script>
+</body>
+</html>
